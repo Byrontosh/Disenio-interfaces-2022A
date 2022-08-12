@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+	<!-- https://cdnjs.com/libraries/font-awesome -->
+
+	<!-- https://fontawesome.com/icons -->
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+		integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<link rel="stylesheet" href="./styles.css" />
+
+
+	<!-- https://www.flaticon.es/ -->
+	<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/1356/1356479.png" type="image/x-icon">
+
+	<title>Portfolio-Flexbox</title>
+
+</head>
+
+<body>
+
+	<!-- HEADER SECTION SATRTS -->
+	<header class="header">
+
+		<nav class="navbar">
+			<div class="container">
+				<div class="logo">Byrontosh</div>
+				<ul class="menu">
+					<li><a href="#navbar">Home</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#expert">Expert</a></li>
+					<li><a href="#testimonials">Testimonials</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="showcase">
+			<div class="container-2">
+				<div class="showcase-box">
+					<h1 >Welcome to my online portfolio</h1>
+					<a href="#portfolio" class="btn btn-light">Portfolio</a>
+				</div>
+			</div>
+		</div>
+
+	</header>
+	<!-- HEADER SECTION ENDS -->
+
+
+
+	<!-- MAIN SECTION STARTS  -->
+	<main class="main">
+
+
+
+		<!-- ABOUT SECTION STARTS  -->
+		<section class="about container" id="about">
+			<div class="about__texts">
+				<h2 class="title">¿Quién soy?</h2>
+				<p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio exercitationem
+					accusamus laudantium aliquam, voluptatem nobis numquam, eos neque perferendis quisquam laboriosam
+					natus architecto harum, dolorem autem at cupiditate dolore consequuntur.</p>
+				<a href="#" class="btn btn-about">curriculum vitae</a>
+			</div>
+			<figure class="about__img">
+				<img src="./images/girl.svg" class="about__picture">
+			</figure>
+		</section>
+		<!-- ABOUT SECTION ENDS  -->
+
+
+
+		<!-- PORTFOLIO SECTION STARTS  -->
+		<section class="portfolio" id="portfolio">
+			<div class="portfolio__container container">
+
+				<h2 class="title">Mis proyectos</h2>
+
+				<div class="portfolio__cards">
+					<article class="portfolio__card">
+						<img src="./images/portfolio-1.jpg" class="portfolio__picture">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Proyecto - 1</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+
+					<article class="portfolio__card">
+						<img src="./images/portfolio-2.jpg" class="portfolio__picture">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Proyecto - 2</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+
+					<article class="portfolio__card">
+						<img src="./images/portfolio-3.jpg" class="portfolio__picture">
+						<div class="portfolio__texts">
+							<h3 class="portfolio__title">Proyecto - 3</h3>
+							<p class="portfolio__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+								Minus tempore voluptatem quis in eaque obcaecati optio impedit numquam ex quos.</p>
+							<a href="#" class="btn btn-portfolio">Más información</a>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+		<!-- PORTFOLIO SECTION ENDS  -->
+
+
+		<!-- LANGUAGES SECTION STARTS  -->
+		<section class="languages" id="expert">
+
+			<div class="container">
+				<h2 class="title">Experto</h2>
+				<div class="languages__container">
+					<img src="./images/html-5.svg" class="languages__picture">
+					<img src="./images/css-3.svg" class="languages__picture">
+					<img src="./images/javascript.svg" class="languages__picture">
+					<img src="./images/react.svg" class="languages__picture">
+				</div>
+			</div>
+
+		</section>
+		<!-- LANGUAGES SECTION ENDS  -->
+
+
+	</main>
+	<!-- MAIN SECTION ENDS  -->
+
+
+
+
+
+
+	<!-- TESTIMONIALS SECTION STARTS -->
+	<div class="testimonials_title" id="testimonials">
+		<span id="typed"></span>
+	</div>
+	<div class="container testimonials">
+		<!-- TESTIMONIAl CARD ONE -->
+		<div class="card card--bg-purple">
+			<header class="card__header">
+				<img src="images/image-daniel.jpg" class="card__img" alt="testimonial1" />
+				<div>
+					<h3>Daniel Clifford</h3>
+					<p>Verified Graduate</p>
+				</div>
+			</header>
+			<p class="card__lead">
+				I received a job offer mid-course, and the subjects I learned were
+				current, if not more so, in the company I joined. I honestly feel I
+				got every penny's worth.
+			</p>
+			<p class="card__quote">
+				"I was an EMT for many years before I joined the bootcamp. I've been
+				looking to make a transition and have heard some people who had an
+				amazing experience here. I signed up for the free intro course and
+				found it incredibly fun! I enrolled shortly thereafter. The next 12
+				weeks was the best - and most grueling - time of my life. Since
+				completing the course, I've successfully switched careers, working as
+				a Software Engineer at a VR startup."
+			</p>
+		</div>
+
+
+		<!-- TESTIMONIAl CARD TWO -->
+		<div class="card card--bg-gray-blue">
+			<header class="card__header">
+				<img src="images/image-jonathan.jpg" class="card__img" alt="testimonial2" />
+				<div>
+					<h3>Jonathan Walters</h3>
+					<p>Verified Graduate</p>
+				</div>
+			</header>
+			<p class="card__lead">
+				The team was very supportive and kept me motivated
+			</p>
+			<p class="card__quote">
+				"I started as a total newbie with virtually no coding skills. I now
+				work as a mobile engineer for a big company. This was one of the best
+				investments I've made in myself."
+			</p>
+		</div>
+
+
+		<!-- TESTIMONIAl CARD TREE -->
+		<div class="card">
+			<header class="card__header">
+				<img src="images/image-jeanette.jpg" class="card__img" alt="testimonial3" />
+				<div>
+					<h3>Jeanette Harmon</h3>
+					<p>Verified Graduate</p>
+				</div>
+			</header>
+			<p class="card__lead">An overall wonderful and rewarding experience</p>
+			<p class="card__quote">
+				"Thank you for the wonderful experience! I now have a job I really
+				enjoy, and make a good living while doing something I love."
+			</p>
+		</div>
+
+
+		<!-- TESTIMONIAl CARD FOUR -->
+		<div class="card card--bg-black-blue">
+			<header class="card__header">
+				<img src="images/image-patrick.jpg" class="card__img" alt="testimonial4" />
+				<div>
+					<h3>Patrick Abrahms</h3>
+					<p>Verified Graduate</p>
+				</div>
+			</header>
+			<p class="card__lead">
+				Awesome teaching support from TAs who did the bootcamp themselves.
+				Getting guidance from them and learning from their experiences was
+				easy.
+			</p>
+			<p class="card__quote">
+				"The staff seem genuinely concerned about my progress which I find
+				really refreshing. The program gave me the confidence necessary to be
+				able to go out in the world and present myself as a capable junior
+				developer. The standard is above the rest. You will get the personal
+				attention you need from an incredible community of smart and amazing
+				people."
+			</p>
+		</div>
+
+
+		<!-- TESTIMONIAl CARD FIVE -->
+		<div class="card">
+			<header class="card__header">
+				<img src="images/image-kira.jpg" class="card__img" alt="testimonial5" />
+				<div>
+					<h3>Kira Whittle</h3>
+					<p>Verified Graduate</p>
+				</div>
+			</header>
+			<p class="card__lead">
+				Such a life-changing experience. Highly recommended!
+			</p>
+			<p class="card__quote">
+				"Before joining the bootcamp, I've never written a line of code. I
+				needed some structure from professionals who can help me learn
+				programming step by step. I was encouraged to enroll by a former
+				student of theirs who can only say wonderful things about the program.
+				The entire curriculum and staff did not disappoint. They were very
+				hands-on and I never had to wait long for assistance. The agile team
+				project, in particular, was outstanding. It took my learning to the
+				next level in a way that no tutorial could ever have. In fact, I've
+				often referred to it during interviews as an example of my developent
+				experience. It certainly helped me land a job as a full-stack
+				developer after receiving multiple offers. 100% recommend!"
+			</p>
+		</div>
+	
+	</div>
+	<!-- TESTIMONIALS SECTION ENDS -->
+
+
+	<!-- FOOTER SECTION STARTS  -->
+	<footer class="footer" id="contact">
+
+		<div class="footer__container container">
+
+			<div class="footer__texts">
+				<h2 class="title">Contáctame</h2>
+				<div class="footer__icons">
+					<a href="#" class="footer__icon fab fa-facebook-f"></a>
+					<a href="#" class="footer__icon fab fa-twitter"></a>
+					<a href="#" class="footer__icon fab fa-instagram"></a>
+				</div>
+				<nav class="footer__nav">
+					<a href="#" class="footer__link">Inicio</a>
+					<a href="#about" class="footer__link">Sobre mí</a>
+					<a href="#portfolio" class="footer__link">Proyectos</a>
+				</nav>
+				<p class="footer__copy">Derechos reservados &copy; ByronTosh</p>
+			</div>
+
+			<figure class="footer__img">
+				<img src="./images/mail.svg" class="footer__picture">
+			</figure>
+		</div>
+	</footer>
+	<!-- FOOTER SECTION STARTS  -->
+
+
+	<!-- https://github.com/mattboldt/typed.js/ -->
+	<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+	<script>
+	var typed = new Typed("#typed", {
+		strings: ['Testimonios', 'Cientes felices', 'Trabajo garantizado'],
+		typeSpeed: 50,
+		backDelay: 500,
+		startDelay: 1000,
+		loop: true,
+	});
+	</script>
+
+</body>
+
+</html>
